@@ -1,0 +1,159 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: url(background.jpg)no-repeat;
+    background-size: cover;
+} 
+
+.loginbox{
+    width: 380px;
+    position: absolute;
+    top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     background: rgba(225, 225, 225, 0.5);
+     padding: 0 40px;
+     border-radius: 50px;
+ }
+
+ .login h1{
+     font-size: 40px;
+     margin-bottom: 40px;
+     font-weight: bolder;
+     border-bottom: 7px solid rgb(34, 199, 34);
+     padding: 10px 0;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left;  
+    left: 28%;  
+    position: relative;
+ }
+
+ .logintext{
+     font-size: 30px;
+   width: 100%;
+   border-bottom: 2px solid rgb(26, 25, 25);
+   margin: 10px 0;
+   padding: 10px 0;
+ }
+
+ .logintext input{
+     border: none;
+     outline: none;
+     background: none;
+     color: black;
+     font-size: 20px;
+     margin:10px 0;
+ }
+
+ .logintext ::placeholder{
+     color: beige;
+ }
+
+ .btn input{
+     width: 100%;
+     background: none;
+     border: white 3px solid;
+     padding: 8px;
+     font-size: 26px;
+     color: rgba(8, 0, 0, 0.925);
+     font-weight: bolder; 
+     margin-top: 10px;  
+ }
+
+ .btn input:hover{
+     color: green;
+     background-color: khaki;
+     cursor: progress;
+ }
+
+ .rmb{
+     position: relative;
+     font-size: 25px;
+     margin-left: 30px;
+     margin-top: -48px;
+     font-weight: 200;
+ }
+
+ .checkbtn{
+     margin-top: 14px;
+ }
+
+ .notsignup{
+font-size: 23px;
+margin-top: -15px;
+margin-left: 30px;
+ }
+ .notsignup a :hover{
+    color: maroon;
+    cursor: grabbing;
+ }
+
+ .copyright{
+     font-size: 25px;
+     position: absolute;
+     color: #da1845fc;
+     top: 90%;
+     left: 28%;
+
+ }
+
+nav{
+    float: right;
+    list-style: none;
+}
+
+nav li{
+    display: inline;
+
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+        font-size: 20px;
+    margin: 0 10px;
+    padding: 10px;
+    background: darksalmon;
+    border-radius: 20px;
+    font-family: cursive;
+}
+
+nav li a:hover{
+color: darkgreen;
+background: beige;
+}
+
+nav li a :active{
+    color: brown;
+    background: cornsilk;
+}
+
+.welcome{
+    position: relative;
+    text-align: center;
+margin-top: -12%;
+}
+
+.welcometext{
+    font-size: 35px;
+padding:  0 5px;
+color: crimson;
+}
+.contact{
+    font-size: 30px;
+}
+.contact a{
+    background: whitesmoke;
+    text-decoration: none;
+    padding: 15px;
+    color: rgb(46, 32, 122);
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.contact a:hover{
+    background: lightgreen;
+    color: rgb(153, 15, 34);
+}
